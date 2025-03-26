@@ -19,4 +19,4 @@ This project is a **Museum of Candy** website, which is built using **HTML**, **
 - **Google Fonts**: "Nunito" font for a clean and modern look.
 
 ## Author
--MedTahiri
+**MEDTAHIRI**
