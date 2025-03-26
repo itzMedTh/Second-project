@@ -1,5 +1,11 @@
 # Museum of Candy - Interactive Website
 
+![image](https://github.com/user-attachments/assets/bb12b826-2318-4c0f-aa87-c43534f33f58)
+
+![image](https://github.com/user-attachments/assets/c1d61977-6504-44bb-92b0-b0ac377044b4)
+
+![image](https://github.com/user-attachments/assets/d2e6033a-bde3-4273-802c-0f6eddc0ce12)
+
 ## Description
 This project is a **Museum of Candy** website, which is built using **HTML**, **CSS**, and **Bootstrap**. The site is designed to be modern, responsive, and interactive, showcasing various sections about candies and their exhibits. It features a navigation bar, large sections with images and text, and an engaging user interface. The project also includes an interactive pricing table to present different ticket options.
 
