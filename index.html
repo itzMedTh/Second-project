@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="link.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Second Project</title>
+</head>
+
+<body>
+
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks"
+            aria-label="toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <!-- SECTION 1 -->
+        <div class="row align-items-center min-vh-100">
+            <div id="headingGroup"
+                class="col-md-6 d-flex align-items-center justify-content-center text-center order-1 order-md-1">
+                <h1 class="fw-bold">MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+            </div>
+            <div class="col-md-6 order-2 order-md-2">
+                <img class="img-fluid" src="hand2.png" alt="Hand holding candy">
+            </div>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div class="row align-items-center min-vh-100">
+            <div class="col-md-6 order-1 order-md-3">
+                <img src="milk.png" alt="Milk Bottle" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>THE SWEETEST MUSEUM</h2>
+                        <img src="lolli_icon.png" alt="Lollipop Icon" class="d-none d-lg-inline">
+                        <p class="lead">Dive into a world of sugar and colors, where every corner is a new candy
+                            adventure. From classic chocolates to unique treats, discover the history of your favorite
+                            sweets!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 3 -->
+        <div class="row align-items-center min-vh-100">
+            <div class="col-md-6 order-1 order-md-5">
+                <img src="gumball.png" alt="Gumball Machine" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>INTERACTIVE CANDY EXHIBITS</h2>
+                        <img src="lolli_icon.png" alt="Lollipop Icon" class="d-none d-lg-inline">
+                        <p class="lead">Engage with our interactive displays. Spin the gumball machine, and discover the
+                            colorful journey of candies from around the world. It's a treat for all ages!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 4 -->
+        <div class="row align-items-center min-vh-100">
+            <div class="col-md-6 order-1 order-md-7">
+                <img src="sprinkles.png" alt="Sprinkles" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-2 order-md-8">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb">
+                        <h2>SUGAR AND SPICE</h2>
+                        <img src="lolli_icon.png" alt="Lollipop Icon" class="d-none d-lg-inline">
+                        <p class="lead">From the rich sweetness of chocolate to the crunchy texture of sprinkles, every
+                            exhibit brings you closer to the magic behind candy creation. Taste, learn, and enjoy!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery for Scroll Effect -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                // Applique la classe 'scrolled' après 50px de défilement
+                $nav.toggleClass("scrolled", $(this).scrollTop() > 50);
+            });
+        });
+    </script>
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2025 Museum of Candy | Follow us on: <a href="#" class="text-light"><i
+                    class="bi bi-facebook mx-2"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-instagram mx-2"></i></a> <a href="#" class="text-light"><i
+                    class="bi bi-twitter mx-2"></i></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    background: #fdf0e0;
+    /* Un fond doux pastel qui rappelle les bonbons et la douceur */
+    font-family: "Nunito", sans-serif;
+    color: #4e3b31;
+    /* Un brun chaud pour rappeler les tons de caramel et chocolat */
+}
+
+.blurb h2 {
+    color: #c56f5a;
+    /* Une couleur de titre plus douce, mais en contraste pour le rendre visible */
+    font-weight: 700;
+    font-size: 3rem;
+    /* Un peu plus grand pour attirer l'attention */
+    margin-bottom: 1.5rem;
+}
+
+.blurb p {
+    color: #4e3b31;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#mainNavbar {
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff9a8b, #ff6a88);
+    /* Un fond de navbar vibrant comme des bonbons fondus */
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ffcc00;
+    /* Un jaune sucré qui évoque la douceur des sucreries */
+    transition: color 300ms ease;
+}
+
+#mainNavbar .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+#headingGroup {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#headingGroup h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    /* Très grand pour un effet de wow */
+    color: #c56f5a;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#headingGroup h1 span {
+    color: #ffcc00;
+    /* Accent sur le "/" en jaune sucré */
+}
+
+.navbar.scrolled {
+    background: #ff6a88;
+    /* Un fond plus foncé pour la navbar au scroll, rappelant des bonbons fondus */
+    transition: background 500ms ease;
+}
+
+footer {
+    background-color: #4e3b31;
+    /* Le fond du footer est plus sombre pour un bon contraste */
+    color: #f9e4b7;
+    /* Un beige clair qui fait ressortir le texte */
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #f9e4b7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ff9a8b;
+    /* Le lien devient un rose pastel au survol pour rappeler les couleurs des bonbons */
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .blurb h2 {
+        font-size: 2.5rem;
+    }
+
+    .blurb p {
+        font-size: 1.1rem;
+    }
+
+    .navbar-nav .nav-item {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #mainNavbar {
+        font-size: 1.3rem;
+    }
+
+    #headingGroup h1 {
+        font-size: 2.8rem;
+    }
+
+    .blurb h2 {
+        font-size: 2rem;
+    }
+
+    .blurb p {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
